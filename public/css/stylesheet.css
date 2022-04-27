@@ -1,0 +1,52 @@
+
+.container-fluid{
+    background-color: rgb(235, 155, 161);    
+    padding-left:80px;    
+}
+
+.container-fluid .row .col-lg-9{    
+    background-image: url("/img/corazon.png"); 
+    background-repeat: no-repeat;
+    background-size: 100px;
+    align-items: center; 
+}
+
+.container-fluid .row .col-lg-3{
+    padding-top:10px;
+    color:white;       
+}
+
+.container-fluid .row h4{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
+
+main{
+    height: 70vh;
+    width: 100%;
+         
+}
+
+main .imagenes:nth-child(1){
+    background-image: url("/img/logoprote.png"); 
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 100px;    
+    height: 100px;
+}
+
+button{
+    background-color: rgb(168, 168, 168);
+    font-weight: bold;
+    
+}
